@@ -13,7 +13,7 @@ function logWhisper(sentence){
 function sayHiToGrandma(sentence){
   if (sentence === sentence.toUpperCase()){
     return "YES INDEED";
-  } else{
+  } else {
     return "I can\'t hear you";
   }
 }
