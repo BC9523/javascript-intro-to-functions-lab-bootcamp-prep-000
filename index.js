@@ -15,7 +15,8 @@ function logWhisper(sentence){
 }
 
 function sayHiToGrandma(sentence){
-  if (sentence === sentence.toUpperCase()){
+//  if (sentence === sentence.toUpperCase()){
+  if (sentence.isUpperCase){
     return "YES INDEED!";
   } else {
     return "I can\'t hear you!";
@@ -31,9 +32,5 @@ function isLowerCase(sentence){
 }
 
 function isMixedCase(sentence){
-  if (sentence != sentence.toLowerCase() && sentence != sentence.toUpperCase()) {
-    return true;
-  } else {
-    return false;
-  }
+  return sentence != sentence.toLowerCase() && sentence != sentence.toUpperCase(); 
 }
