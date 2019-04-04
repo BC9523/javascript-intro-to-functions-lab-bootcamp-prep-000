@@ -10,7 +10,7 @@ function isLowerCase(sentence){
 function isMixedCase(sentence){
   return sentence != sentence.toLowerCase() && sentence != sentence.toUpperCase(); 
 }
-// Work
+// Work Functions
 function shout(sentence){
   return sentence.toUpperCase();
 }
@@ -35,4 +35,5 @@ function sayHiToGrandma(sentence){
     return "I can\'t hear you!";
   }
 }
+function sayHiToGra
 
