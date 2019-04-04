@@ -35,5 +35,9 @@ function sayHiToGrandma(sentence){
     return "I can\'t hear you!";
   }
 }
-function sayHiToGra
+function sayHiToGrandma (sentence){
+  if (sentence === "I love you, Grandma."){
+    return "I love you,too.";
+  }
+}
 
