@@ -1,3 +1,16 @@
+// Helper Functions
+function isUpperCase(sentence){
+  return sentence === sentence.toUpperCase();
+}
+
+function isLowerCase(sentence){
+  return sentence === sentence.toLowerCase();
+}
+
+function isMixedCase(sentence){
+  return sentence != sentence.toLowerCase() && sentence != sentence.toUpperCase(); 
+}
+// Work
 function shout(sentence){
   return sentence.toUpperCase();
 }
@@ -22,15 +35,4 @@ function sayHiToGrandma(sentence){
     return "I can\'t hear you!";
   }
 }
-// Helper Functions
-function isUpperCase(sentence){
-  return sentence === sentence.toUpperCase();
-}
 
-function isLowerCase(sentence){
-  return sentence === sentence.toLowerCase();
-}
-
-function isMixedCase(sentence){
-  return sentence != sentence.toLowerCase() && sentence != sentence.toUpperCase(); 
-}
