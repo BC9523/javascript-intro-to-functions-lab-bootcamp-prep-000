@@ -21,3 +21,6 @@ function sayHiToGrandma(sentence){
     return "I can\'t hear you!";
   }
 }
+function isUpperCase(sentence){
+  return sentence === sentence.toUpperCase();
+}
